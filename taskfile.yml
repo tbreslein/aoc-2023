@@ -2,7 +2,6 @@
 version: 3
 
 tasks:
-  day01:
-    cmds:
-      - cd $TASK
-      - uiua run
+  d00: cd {{.TASK}}; uiua run
+  # d00: cd {{.TASK}}; zig run main.zig
+  d01: cd {{.TASK}}; uiua run
