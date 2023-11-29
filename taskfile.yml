@@ -1,0 +1,8 @@
+---
+version: 3
+
+tasks:
+  day01:
+    cmds:
+      - cd $TASK
+      - uiua run
