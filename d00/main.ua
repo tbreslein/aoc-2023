@@ -1,1 +1,1 @@
-"Hello, World!"
+⊜□ ≠, @\n &fras "input.txt"
