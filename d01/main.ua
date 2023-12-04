@@ -5,16 +5,16 @@ Input ← ⊜□ ≠, @\n &fras "input.txt"
 
 &s "Part two"
 
-POne ← ×1+⊃(⌕"1")(⍣(⌕"one")(⋅⋅×0⇡⧻.))⊔
-PTwo ← ×2+⊃(⌕"2")(⍣(⌕"two")(⋅⋅×0⇡⧻.))⊔
-# PThree ← ×3+⊃(⌕"3")(⍣(⌕"three")(⋅⋅×&s.0&s .⇡&s .⧻.&s .))⊔
-PThree ← ×3+⊃(⌕"3")(⍣(⌕"three")(⋅⋅×&s.&s,0&s .⇡&s .⧻.&s .))⊔
-PFour ← ×4+⊃(⌕"4")(⍣(⌕"four")(⋅⋅×0⇡⧻.))⊔
-PFive ← ×5+⊃(⌕"5")(⍣(⌕"five")(⋅⋅×0⇡⧻.))⊔
-PSix ← ×6+⊃(⌕"6")(⍣(⌕"six")(⋅⋅×0⇡⧻.))⊔
-PSeven ← ×7+⊃(⌕"7")(⍣(⌕"seven")(⋅⋅×0⇡⧻.))⊔
-PEight ← ×8+⊃(⌕"8")(⍣(⌕"eight")(⋅⋅×0⇡⧻.))⊔
-PNine ← ×9+⊃(⌕"9")(⍣(⌕"nine")(⋅⋅×0⇡⧻.))⊔
+PT ← ×⊙(⊔⊡0)+⊃(⌕⊔⊡1)(⍣(⌕⊔⊡2)(⋅⋅×0⇡⧻.;))⊙:.⊙⊔
+POne ← PT {1 @1 "one"}
+PTwo ← PT {2 @2 "two"}
+PThree ← PT {3 @3 "three"}
+PFour ← PT {4 @4 "four"}
+PFive ← PT {5 @5 "five"}
+PSix ← PT {6 @6 "six"}
+PSeven ← PT {7 @7 "seven"}
+PEight ← PT {8 @8 "eight"}
+PNine ← PT {9 @9 "nine"}
 
 P ← ++++++++⊃⊃⊃⊃⊃⊃⊃⊃PNine PEight PSeven PSix PFive PFour PThree PTwo POne
 
