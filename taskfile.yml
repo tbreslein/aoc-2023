@@ -6,3 +6,5 @@ tasks:
   # d00: cd {{.TASK}}; zig run main.zig
   d01: cd {{.TASK}}; uiua watch
   d02: cd {{.TASK}}; uiua watch
+  d03: cd {{.TASK}}; uiua watch
+  d04: cd {{.TASK}}; uiua watch
