@@ -16,8 +16,7 @@
       in with pkgs; {
         devShells.default = mkShell {
           buildInputs =
-            [ uiua-flake.outputs.packages."${system}".default zig zls ];
+            [ uiua-flake.outputs.packages."${system}".default nushell ];
         };
       });
 }
-
